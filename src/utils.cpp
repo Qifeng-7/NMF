@@ -5,6 +5,8 @@
 #include <Rdefines.h>
 #include <R_ext/Error.h>
 
+#define DOUBLE_EPS DBL_EPSILON
+
 extern "C" {
 
 	/** Returns the pointer address of 'x' as a character string*/
